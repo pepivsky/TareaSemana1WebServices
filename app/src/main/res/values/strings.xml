@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TareaSemana1WebServices</string>
+
+    <string name="nombre_mascota">Nombre</string>
+    <string name="menu_contacto">Contacto</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="app_namecon">Nombre</string>
+    <string name="app_email">Email</string>
+    <string name="app_mensaje">Mensaje</string>
+    <string name="form_username">Nombre</string>
+    <string name="form_correo">Correo Electrónico</string>
+    <string name="form_mensaje">Mensaje</string>
+    <string name="plikes">0</string>
+    <string name="menu_cuenta">Configurar cuenta</string>
+</resources>

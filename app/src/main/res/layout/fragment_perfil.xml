@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="mx.pepivsky.tareasemana4recyclerview.Fragment.PerfilFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/cImagen"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/aves_exoticas_del_amazonas_y_del_mundo"
+        app:civ_border_color="@color/colorAccent"
+        app:civ_border_width="4dp"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="10"
+        app:civ_shadow_color="#01579B"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/nombreM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Juancho"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/cImagen"
+        android:layout_centerHorizontal="true" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/nombreM"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>

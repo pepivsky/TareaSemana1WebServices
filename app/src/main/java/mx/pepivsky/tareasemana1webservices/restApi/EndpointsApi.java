@@ -6,7 +6,7 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 
 /**
- * Created by anahisalgado on 25/05/16.
+ * Created by pepe
  */
 public interface EndpointsApi {
 

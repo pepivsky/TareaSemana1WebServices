@@ -25,7 +25,7 @@
 
     <item
         android:id="@+id/Notificaciones"
-        android:title="Enviar Notificaciones"
+        android:title="Enviar Notificacioness"
         android:orderInCategory="4"
         >
 

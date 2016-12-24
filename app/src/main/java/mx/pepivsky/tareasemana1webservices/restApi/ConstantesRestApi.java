@@ -6,7 +6,7 @@ package mx.pepivsky.tareasemana1webservices.restApi;
 public final class ConstantesRestApi {
 
     //https://api.instagram.com/v1/
-    public static final String VERSION = "/v1/";
+    public static final String VERSION ="/v1/";
     public static final String ROOT_URL = "https://api.instagram.com" + VERSION;
     public static final String ACCESS_TOKEN = "3983168698.6312422.9f002eac59dd4b3bb9d65798457d2d89";
     public static final String KEY_ACCESS_TOKEN = "?access_token=";
